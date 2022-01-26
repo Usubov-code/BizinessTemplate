@@ -1,0 +1,293 @@
+#carouselExampleCaptions {
+  position: relative;
+}
+
+.navbar {
+  display: inline;
+  float: left;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 25px 0;
+  z-index: 999;
+}
+.navbar-brand {
+  font-size: 40px;
+}
+
+.carousel-item::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  opacity: 0.92;
+  background: linear-gradient(to right, #b06ab3, #4568dc);
+}
+
+.mu-primary-btn
+{
+    background-color: transparent;
+    border-radius: 100px;
+    border: solid 1px #fff;
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 01px;
+    padding: 12px 25px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s
+}
+
+.buttonp a{
+    text-decoration: none;
+   
+}
+
+.buttonp a:hover
+{
+    background-color: white;
+    color: black;
+}
+
+.carousel-indicators [data-bs-target]
+{
+  
+
+   
+    width: 20px;
+    height:20px;
+   border-radius: 50%;
+    cursor: pointer;
+   
+
+}
+
+.carousel
+{
+    position: relative;
+}
+
+.carousel-caption
+{
+    position: absolute;
+    top: 40%;
+}
+
+.service-title
+{
+    color: #1c1b1b;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.service-title h2
+{
+    font-size: 32px;
+    line-height: 1.13;
+}
+
+.service-span
+{
+    background-color: #7d7373;
+    border-radius: 0;
+    height: 3px;
+    width: 100px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.service-area
+{
+    display: inline;
+    float: left;
+    padding: 100px 0;
+    width: 100%;
+}
+.service-text
+{
+    display: inline;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+.service-title span
+{
+    color: #4568DC;
+
+}
+.service-content-single
+{
+    display: inline;
+    float: left;
+   
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    width: 100%;
+}
+
+.service-icon   
+{
+    font-size: 35px;
+    margin-bottom: 20px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.service-content-single h4
+{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.service-content-single p
+{
+    margin: 0 0 10px;
+    font-size: 15px;
+    text-align: left;
+}
+.service-icon i
+{
+    color: #4568DC;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+   
+  }
+  .bcg
+  {
+    background-color: rgba(0,0,0,0.8);    
+
+  }
+
+  .form-group
+  {
+    margin-bottom: 15px;
+  }
+  .contact-form .form-group input
+  {
+    background: transparent;
+    color: #333;
+    font-size: 15px;
+    border: 1px solid #333;
+    border-radius: 0;
+    height: 45px;
+    margin-bottom: 24px;
+  }
+  .contact-form .form-group textarea
+  {
+    color: #333;
+    background: transparent;
+    border: 1px solid #333;
+    border-radius: 0;
+    font-size: 18px;
+    padding: 10px;
+    height: 190px;
+  }
+
+  .contact-form button
+  {
+    float: left;
+    margin-left: 0;
+    border-radius: 0;
+  }
+  .mu-send-msg-btn
+  {
+    border-radius: 4px;
+    border: 1px solid #888;
+    background-color: transparent;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 14px 24px;
+    margin-top: 10px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    width: 130px;
+  }
+  .contact-right
+  {
+    display: inline;
+    float: left;
+    width: 100%;
+}
+  
+.contact-right h4
+{
+    font-size: 24px;
+}
+
+.contact-right p
+{
+    margin: 0 0 10px;
+}
+.contact-right  address p i
+{
+    margin-right: 10px;
+}
+
+.social-media
+{
+    display: inline;
+    float: left;
+    width: 100%;
+}
+.social-media a
+{
+    display: inline-block;
+    font-size: 16px;
+    border: 1px solid #333;
+    width: 35px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 5px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    text-decoration: none;
+    color: #2f2f2f;
+}
+
+
+
+/* .google-map iframe
+{
+    border: 0px;
+    pointer-events: none;
+} */
+#mu-footer
+{
+    display: inline;
+    float: left;
+    width: 100%;
+}
+.mu-footer-area
+
+{
+    display: inline;
+    float: left;
+    padding: 30px 0;
+    text-align: center;
+    width: 100%;
+}
+.mu-footer-area p
+{
+    margin: 0 0 10px;
+}
+.mu-footer-area a
+{
+    font-weight: 600;
+}

@@ -28,7 +28,7 @@ namespace BizinessTemplate
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("BiznessCS")));
+            services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("BizinessCS")));
             services.AddIdentity<CustomUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>();
         }
 
@@ -54,6 +54,13 @@ namespace BizinessTemplate
 
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapAreaControllerRoute(
+                    areaName:"admin",
+                      name: "Areas",
+                      pattern: "admin/{controller=Account}/{action=Login}/{id?}") ;
+
+
+
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
